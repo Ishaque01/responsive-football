@@ -1,5 +1,5 @@
 /* font-family */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -58,3 +58,24 @@ body{
     width: 100%;
 }
 /* Top-banner-end */
+.Top-players{
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.players{
+    width: 300px;
+    height: 300px;
+}
+.player-image img{
+    width: 100%;
+}
+.player-details p{
+    color: #6C6C6C;
+}
+.player-name{
+  color:#18191F;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 20px;
+}
