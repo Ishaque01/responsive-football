@@ -79,3 +79,7 @@ body{
   font-size: 28px;
   line-height: 20px;
 }
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
