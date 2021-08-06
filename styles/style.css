@@ -5,10 +5,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* common-style */
-.container{
+/* .container{
     max-width: 1440px;
     margin: auto;
-}
+} */
 
 
 /* Top-banner */
@@ -42,9 +42,16 @@ body{
     font-style: normal;
     color: #FFFFFF;
 }
+/* hover */
 .section-title a:hover{
     border: 4px orange dotted;
 }
+.section-image:hover{
+    transform: rotate(30deg);
+    transition: transform 3s ease-in-out;
+}
+/* hover end */
+
 .fa-arrow-right{
     padding-left: 8px;
 }
@@ -59,6 +66,8 @@ body{
     width: 100%;
 }
 /* top-banner-end */
+
+/* Top-players-start */
 .Top-players{
     margin-top: 70px;
 }
@@ -93,6 +102,40 @@ body{
     color: #6C6C6C;
     margin-top: 10px;
 }
+/* Top-players-end */
+
+/* footer start */
+.logo{
+    width: 483px;
+    height: 110px;
+    margin-top: 158px;
+    margin-left: 475px;
+    margin-right: 481px;
+    margin-bottom: 63px;
+    text-align: center;
+    font-size: 18px;
+}
+.logo img{
+    width: 100%;
+}
+.social{
+    background-color: #b9acac;
+    border-radius: 60px;
+    font-size: 30px;
+    color: rgb(218, 125, 125);
+}
+/* footer end */
+
+@media only screen and (max-width:688px) {
+    .Top-banner{
+        flex-direction: column;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
 
 
 
